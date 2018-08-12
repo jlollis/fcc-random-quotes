@@ -1,47 +1,120 @@
-<<<<<<< HEAD
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+
 button {
-    background-color: #7142f4;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 2px 0px 30px;
+  background-color: #7142f4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px 0px 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+twitter-button {
+  background-color: #7142f4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px 0px 30px;
 }
 
 h1 {
-  font-family: 'Quicksand', sans-serif;
+font-family: 'Quicksand', sans-serif; 
+text-align: center;
 }
 
 #myQuote {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
-  font-style: italic;
-  padding: 1.5rem;
-}
-=======
-button {
-    background-color: #7142f4;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 2px 0px 30px;
+font-family: 'Quicksand', sans-serif;
+font-size: 18px;
+font-style: italic;
+padding: 2rem;
+max-width: 100%;
+height: auto;
+color: black;
 }
 
-h1 {
-  font-family: 'Quicksand', sans-serif;
+/* removes the blue outline around button after click in chrome */
+button:focus {
+outline:0;
 }
 
-#myQuote {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
-  font-style: italic;
-  padding: 1.5rem;
+.text-box {
+width: 100%;
+min-height: 200px;
+max-height: auto;
+margin: auto;
+padding-top: 2rem;
 }
->>>>>>> 544c717bcdbd10f446fbc7b9fcbaf373c6a26371
+
+.container {
+padding-top: 10rem;
+}
+
+.center {
+margin: auto;
+width: 60%;
+border: 2px solid black;
+padding: 1.5rem;
+background-color: white;
+}
+
+html {
+ background-image:url('https://static8.depositphotos.com/1007963/848/i/950/depositphotos_8483440-stock-photo-seamless-abstract-texture-of-3d.jpg');
+no-repeat: center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+background-position: center center; 
+}
+
+.fa-twitter {
+padding: 20px 5px 20px 20px;
+font-size: 30px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px 0px 30px;
+width: 160px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-twitter {
+background-color: #7142f4;
+color: white; 
+
+}
+
+.fa {
+ background-color: #7142f4;
+color: white; 
+}
+.center-buttons{
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
