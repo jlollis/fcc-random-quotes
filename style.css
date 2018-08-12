@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 button {
     background-color: #7142f4;
     border: none;
@@ -20,3 +21,27 @@ h1 {
   font-style: italic;
   padding: 1.5rem;
 }
+=======
+button {
+    background-color: #7142f4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px 0px 30px;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#myQuote {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  padding: 1.5rem;
+}
+>>>>>>> 544c717bcdbd10f446fbc7b9fcbaf373c6a26371
