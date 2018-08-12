@@ -14,6 +14,7 @@ var quotes = [
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById("myQuote").innerHTML = quotes[randomNumber];
+
 }
 
-$(this).attr("href", 'https://twitter.com/intent/tweet?text=' + 'myQuote');
+$(this).attr("href", "https://twitter.com/intent/tweet?text=" + "#myQuote");
