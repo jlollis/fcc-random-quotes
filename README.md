@@ -3,7 +3,7 @@ Random Quote Generator
 
 This is a random quote generator written in javascript, created as a small project for [Free Code Camp](https://www.freecodecamp.org/) in November 2017. 
 
-You can view it live here: [https://jlollis.github.io/fcc-random-quotes](https://jlollis.github.io/fcc-random-quotes/)
+You can view it live her: [Random Quote Generator on Github Pages](https://jlollis.github.io/fcc-random-quotes/)
 
 
 ![screenshot](https://github.com/jlollis/fcc-random-quotes/blob/master/screenshot.png)
